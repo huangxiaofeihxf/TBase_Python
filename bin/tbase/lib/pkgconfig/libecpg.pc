@@ -1,0 +1,9 @@
+Name: libecpg
+Description: PostgreSQL libecpg library
+Url: http://www.postgresql.org/
+Version: 10.0 TBase V2
+Requires: 
+Requires.private: libpq libpgtypes
+Cflags: -I/data/bin/tbase/include
+Libs: -L/data/bin/tbase/lib -lecpg
+Libs.private:  -lm
